@@ -5,7 +5,7 @@
 ## Overview
 
 This project shows an end-to-end analysis workflow on an e-commerce dataset.
-Data is stored in **MySQL**, key questions are answered with **SQL** (saved in `Queries/`), and results are pulled into **Python (Jupyter)** for quick EDA and charts in the notebook **`Python+SQL-Ecommerce_Project.ipynb`**. There’s also a small helper **`csv_to_sql.py`** script for loading CSVs into MySQL. ([GitHub][1])
+Data is stored in **MySQL**, key questions are answered with **SQL** (saved in `Queries/`), and results are pulled into **Python (Jupyter)** for quick EDA and charts in the notebook **`Python+SQL-Ecommerce_Project.ipynb`**. There’s also a small helper **`csv_to_sql.py`** script for loading CSVs into MySQL.
 
 ---
 
@@ -111,8 +111,6 @@ Load CSVs (choose one):
 python csv_to_sql.py
 ```
 
-(See the script in the repo.) ([GitHub][2])
-
 **Option B – MySQL `LOAD DATA`** (sample):
 
 ```sql
@@ -151,8 +149,6 @@ Open the notebook:
 ```bash
 jupyter notebook "Python+SQL-Ecommerce_Project.ipynb"
 ```
-
-(Notebook filename verified from repo.) ([GitHub][1])
 
 ---
 
