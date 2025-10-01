@@ -1,6 +1,6 @@
 ---
 
-# Ecom-Insight: E-commerce Data Analysis with SQL + Python
+# Project Insight ::
 
 ## Overview
 
